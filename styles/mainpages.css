@@ -39,8 +39,8 @@
 .navlinksdiv {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: rgba(0, 0, 0, 0.295);
-  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.226);
+  border-radius: 10px;
 }
 
 .links {
@@ -54,7 +54,7 @@
   padding-bottom: 10px;
   padding-left: 0px;
   padding-right: 0px;
-  transition: box-shadow 0.15s, background-color 0.15s;
+  transition: box-shadow 0.3s, background-color 0.15s;
   cursor: pointer;
 }
 
@@ -70,7 +70,7 @@
 
 .login-btn {
   margin: 5px;
-  font-size: 20px;
+  font-size: 15px;
   background-color: #00657e;
   color: white;
   border-color: #022631;
@@ -94,15 +94,15 @@
 
 .register-btn {
   margin: 5px;
-  font-size: 20px;
+  font-size: 15px;
   background-color: rgba(0, 0, 0, 0.685);
   color: rgb(255, 255, 255);
   border-radius: 10px;
   border: none;
   padding-top: 17px;
   padding-bottom: 17px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-right: 10px;
   transition: background-color 0.15s, color 0.15s;
   cursor: pointer;
@@ -137,6 +137,7 @@
 }
 
 .hero-image {
+
 }
 
 .hero-text {

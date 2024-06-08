@@ -1,0 +1,158 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Phudu;
+}
+
+/*--------Navigation Bar--------*/
+.logo-img {
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.main-nv-bar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #022631 0%, #00657e 50%);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-style: solid;
+  border-width: 0px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: rgb(0, 0, 0);
+}
+
+.navlinks {
+  display: grid;
+  grid-template-columns: 6fr auto 5fr;
+}
+
+.navlinksdiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: rgba(0, 0, 0, 0.295);
+  border-radius: 20px;
+}
+
+.links {
+  min-width: 100px;
+  max-width: 150px;
+  color: rgb(255, 255, 255);
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  transition: box-shadow 0.15s, background-color 0.15s;
+  cursor: pointer;
+}
+
+.links:hover {
+  background-color: #022631;
+  box-shadow: 0 0 100px rgba(0, 247, 255, 0.699);
+}
+
+.cta-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.login-btn {
+  margin: 5px;
+  font-size: 20px;
+  background-color: #00657e;
+  color: white;
+  border-color: #022631;
+  border-style: solid;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #368ca191;
+}
+
+.login-btn:active {
+  background-color: #9eccd871;
+}
+
+.register-btn {
+  margin: 5px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.685);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  transition: background-color 0.15s, color 0.15s;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: rgba(0, 0, 0, 0.466);
+  color: rgba(255, 255, 255, 0.637);
+}
+
+.register-btn:active {
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+/*--------Hero Section--------*/
+.hero {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: linear-gradient(135deg, rgb(206, 106, 44) 0%, rgb(211, 138, 89) 15%, rgb(207, 141, 96) 20%, rgb(207, 190, 176) 100%);
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.hero-image-div {
+  text-align: center;
+}
+
+.hero-image {
+}
+
+.hero-text {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 30px 0px 30px 0px;
+}
+
+.hero-title {
+  font-weight: bold;
+  font-size: 50px;
+  vertical-align: bottom;
+}
+
+.hero-description {
+  font-weight: 500;
+  font-size: 20px;
+  vertical-align: bottom;
+}

@@ -14,3 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     observer.observe(image);
 });
+
+document.addEventListener('mouseover', function(){
+
+})
+

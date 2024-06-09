@@ -40,7 +40,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: rgba(0, 0, 0, 0.226);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .links {
@@ -95,8 +95,8 @@
 .register-btn {
   margin: 5px;
   font-size: 15px;
-  background-color: rgba(0, 0, 0, 0.685);
-  color: rgb(255, 255, 255);
+  background-color: rgb(206, 128, 26);
+  color: rgb(0, 0, 0);
   border-radius: 10px;
   border: none;
   padding-top: 17px;
@@ -109,12 +109,12 @@
 }
 
 .register-btn:hover {
-  background-color: rgba(0, 0, 0, 0.466);
-  color: rgba(255, 255, 255, 0.637);
+  background-color: rgba(202, 133, 42, 0.712);
+  color: rgba(0, 0, 0, 0.527);
 }
 
 .register-btn:active {
-  background-color: rgba(0, 0, 0, 0.267);
+  background-color: rgba(112, 68, 10, 0.767);
 }
 
 /*--------Hero Section--------*/
@@ -124,20 +124,54 @@
   vertical-align: middle;
   padding-top: 200px;
   padding-bottom: 200px;
-  background: linear-gradient(135deg, rgb(206, 106, 44) 0%, rgb(211, 138, 89) 15%, rgb(207, 141, 96) 20%, rgb(207, 190, 176) 100%);
+  background: linear-gradient(135deg, #4A90E2 0%, #50E3C2 100%);
 }
+
+.heroa {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
+}
+
+.herob {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: linear-gradient(135deg, #ba96d3 0%, #87CEEB 20%, #0b6e8f 100%);
+}
+
+/*
+linear-gradient(135deg, rgb(206, 106, 44) 0%, rgb(211, 138, 89) 15%, rgb(207, 141, 96) 20%, rgb(207, 190, 176) 100%);
+linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
+linear-gradient(135deg, #4A90E2 0%, #50E3C2 100%);
+
+
+
+*/
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
+  padding-right: 50px;
 }
 
 .hero-image-div {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 
 .hero-image {
-
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
 }
 
 .hero-text {

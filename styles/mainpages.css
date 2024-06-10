@@ -135,7 +135,7 @@
   vertical-align: middle;
   padding-top: 100px;
   padding-bottom: 100px;
-  background: linear-gradient(135deg, #4A90E2 0%, #50E3C2 100%);
+  background-image: linear-gradient(to right, #eab796, #ebb18c, #ecac82, #eda679, #eda06f, #ed9b67, #ed955f, #ed9057, #ed8a4f 97%, #ed8447 98%, #ec7e3f 99%, #ec7837 100%);
 }
 
 /*
@@ -220,4 +220,102 @@ linear-gradient(135deg, #4A90E2 0%, #50E3C2 100%);
 
 .link-desc {
   cursor: pointer;
+}
+
+/*--------moreinfo--------*/
+
+.tools-used
+{
+  margin-top: 100px;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  margin-top: 20px;
+  gap: 20px
+}
+
+.text-expl
+{
+  display: grid;
+  grid-template-columns: 1fr 40% 1fr;
+  align-self: center;
+}
+
+.big-text
+{
+  font-family: Phudu;
+  font-size: 40px;
+  align-self: center;
+  text-align: center;
+}
+
+.tiny-text
+{
+  font-family: Phudu;
+  align-self: center;
+  text-align: center;
+  color: rgba(1, 34, 224, 0.808);
+}
+
+.tools-example
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 50px;
+}
+
+.tool-info
+{
+  display: grid;
+  grid-template-columns: max-content 5fr;
+  gap: 20px;
+}
+
+.tool-logo
+{
+  padding-bottom: 0px;
+}
+
+.tool-logo-img
+{
+  object-fit: contain;
+}
+
+.tool-text
+{
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  font-family: Phudu;
+}
+
+.big-tool-text
+{
+  font-size: 30px
+}
+
+.small-tool-text
+{
+  font-size: 20px;
+  color: rgb(90, 90, 90);
+}
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
 }
